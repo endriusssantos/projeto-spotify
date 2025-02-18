@@ -13,7 +13,7 @@ const SongItem = ({ image, name, duration, artist, audio, id, index }) => {
       </div>
     </div>
 
-    <p>02:30</p>
+      <p>{duration}</p>
   </Link>;
 };
 
